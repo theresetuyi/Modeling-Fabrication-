@@ -3,45 +3,16 @@ glightbox: false
 ---
 
 # Therese Tuyisabe Documents
-
-This is an Therese Tuyisabe documentation for the Fabricademy program.
-
-You can edit it on [Github](http://github.com/R-INYURU). The software used turns simple text files written in [Markdown](https://en.wikipedia.org/wiki/Markdown) format, into the site you are navigating.
-
-Each time you change a page using the Gitlab interface, the site is rebuilt and all the changes published
-in few minutes.
-
-If this is your site, go on and edit this page clicking the Gitlab link on the upper right, changing the text below and deleting this.
-
-No worries, you can't break anything, all the changes you make are saved under [Version Control](https://en.wikipedia.org/wiki/Version_control) using [GIT](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control). This means that you have all the different versions of your page saved and available all the time in the Gitlab interface.
-
-This is an example of how you can structure your documentation, including ways of adding images, videos, tables e.t.c. Once you start editing make sure that you delete the examples and you make this page yours.
-
-
-
-## About me
-
+This documentation presents the learning journey and practical work of Therese Tuyisabe as part of the Fabricademy program. It includes research notes, design processes, experiments, and reflections developed throughout the course.
+The website is built using Markdown, a simple and flexible text format that allows easy documentation of projects, images, and learning outcomes. All updates are managed through GitHub, ensuring version control and continuous improvement of the documentation.
+This platform serves as a digital record of progress, skills development, and creative exploration during the Fabricademy program.
+# About me
 ![](./images/avatar-photo.jpeg){ width=200 align=right }
-
-_you can introduce yourself in many ways! audio, images, video.._
-
-Hi! I am Therese Tuyisabe . I am an art director & graphic designer based in New York City working on branding, visual identities, editorial design and web design.
-
-_the image above has a prefixed width and is aligned on the right side_
-
-
-_below an example from the documentation of both [Sara Alvarez](https://class.textile-academy.org/2021/sara.alvarez/) TextileLab Amsterdam 2020-21 and [Diane Wakim](https://class.textile-academy.org/2021/diane.wakim/) Le TextileLab Lyon_
-
-
-
+Hello! My name is Therese Tuyisabe. I am a creative practitioner with an interest in digital fabrication, design, and visual communication. Through the Fabricademy program, I am developing hands-on skills in fabrication technologies, design thinking, and experimental making.
+This documentation reflects my learning process, challenges, and outcomes across different modules of the program. 
+<p style="clear: both;"></p>
 ## My background
-
-I was born in a nice city called Kigali.
-
-<!-- This below clears both sides under "aligned" images - see two images above.
-Can also be used just as "clear: right;" rather than "clear: both;", if you are using an image on the right, for example.
--->
-
+I was born and raised in Kigali, where my interest in creativity, design, and technology began. My background continues to influence my approach to making, combining local context with digital fabrication techniques.
 <p style="clear: both;"></p>
 <br/> 
 

@@ -1,40 +1,78 @@
-# 7. Pcb Milling Research Report
-# Research
-# Introduction to PCB Milling
-Printed Circuit Board (PCB) milling is a subtractive manufacturing process where a CNC machine removes unwanted copper from a copper clad board to form electrical traces and pads. Unlike chemical etching, PCB milling is a clean, fast, and environmentally friendly technique, making it especially suitable for rapid prototyping, education, and small batch production
-# Carbide Nomad 3 CNC Machine
-The Carbide Nomad 3 is a desktop CNC milling machine designed for high precision tasks such as PCB fabrication. Its fully enclosed design improves safety and dust control, while its rigidity and accuracy allow for fine trace isolation required in electronics manufacturing. The machine integrates seamlessly with Carbide Create (design/CAM) and Carbide Motion (machine control) software, simplifying the workflow from design to fabrication. 
-# Materials and Tools for PCB Milling
-Successful PCB milling requires appropriate materials and tooling:
-•	PCB Blanks: FR 1 (paper based, easier to mill) and FR 4 (fiberglass based, more durable).
-•	End Mills & Drill Bits: 0.2–0.4 mm flat end mills for trace isolation and various drill sizes for component holes.
-•	Securing Materials: Double sided tape or fixture plates to hold the board firmly.
-•	Cleaning Tools: Vacuum or brush to remove debris during and after milling.
-# PCB Design Preparation
-Before milling, the PCB must be properly designed using software such as KiCad or Eagle. Designers define trace widths, clearances, and component placement according to milling constraints. A Design Rule Check (DRC) is performed to detect errors, after which Gerber files and Excellon drill files are exported for CAM processing. 
-# Toolpath Generation
-CAM software such as FlatCAM or Carbide Create converts PCB design files into machine readable toolpaths. Separate toolpaths are generated for trace isolation, drilling, and board outline cutting. Cutting depth, feed rate, and tool diameter must be carefully configured before exporting the final G code file. 
-# Machine Setup and Calibration
-Accurate setup is critical for quality PCB milling. The PCB blank is secured to the machine bed, the correct end mill is installed, and work coordinates (X, Y, Z) are defined. Z axis calibration is particularly important to ensure consistent trace depth. A dry run is recommended to verify toolpaths before actual cutting. 
-# PCB Milling Process
-The milling process typically follows three main stages:
-1.	Isolation Milling: Removes copper around traces.
-2.	Drilling: Creates holes for through hole components.
-3.	Board Outline Cutting: Separates the PCB from the blank.
-# Post Processing and Assembly
-After milling, the PCB is cleaned and inspected for shorts or open traces using a multimeter. Components are then soldered onto the board, followed by continuity testing to verify correct electrical connections. Any defects identified are reworked before final use. 
-# Safety, Limitations, and Best Practices
-Safety is essential when operating CNC machines. The enclosure should remain closed during operation, and proper ventilation must be ensured. PCB milling is best suited for single layer or simple double layer boards and is less effective for very fine pitch or multi layer designs. When used correctly, it is an excellent learning and prototyping tool. 
-# References & Inspiration
-  PCB Milling Process Using Carbide Nomad 3 CNC 
-  Course material for Advanced Manufacturing Techniques. 
-  Carbide 3D Documentation and User Guides.
-  KiCad and FlatCAM official documentation.
-    Download Reference
-  PCB Milling Process (PDF) 
-  Course handout and lecture slides. 
+# Activity 7. Digital Fabrication III: PCB Milling
+
+## Introduction
+
+PCB milling is a subtractive manufacturing process where a CNC machine
+removes unwanted copper from a copper-clad board to form electrical traces
+and pads. Unlike chemical etching, PCB milling is clean, fast, and
+environmentally friendly, making it suitable for rapid prototyping and
+small batch production.
+
+The machine used for this process was the Carbide Nomad 3, a desktop CNC
+milling machine designed for high precision tasks such as PCB fabrication.
+It integrates with Carbide Create for design and Carbide Motion for machine
+control, simplifying the workflow from design to fabrication.
 
 
+## After Class Activity  Milling the PCB from Day 3
 
+In this activity we were supposed to mill the PCB design we created on Day 3
+using KiCad. The workflow involved exporting fabrication files, setting up
+the machine, and running the milling job.
 
+## Step 1  Exporting Fabrication Files from KiCad
 
+The first step was to export the PCB design from KiCad as fabrication files.
+Three files were needed:
+
+- **Gerber file** defines the copper trace layout
+- **Drill file** defines hole positions for components
+- **Outline file** defines the board boundary for cutting
+
+These files were uploaded to the Carbide3D website to configure page
+settings and milling parameters, and to adjust everything to match the
+size and limits of the machine being used.
+
+## Step 2 Generating Toolpaths in Carbide Create
+
+After uploading the files, toolpaths were generated for each stage of
+the milling process:
+
+- **Isolation milling**  removes copper around traces
+- **Drilling** creates holes for through-hole components
+- **Board outline cutting** separates the PCB from the blank
+
+Cutting depth, feed rate, and tool diameter were configured carefully
+before exporting the final G-code file.
+
+## Step 3 Setting Up the Machine in Carbide Motion
+
+We connected to the Carbide Motion software to control the PCB milling
+machine. The following setup steps were completed:
+
+- Secured the copper-clad board to the machine bed
+- Installed the correct end mill
+- Set the X, Y, and Z axes work coordinates
+- Calibrated the Z axis to ensure consistent trace depth
+
+## Step 4  Machine Unavailable
+
+After completing all preparation steps, the milling machine was not
+working at the time of this activity. The physical PCB board could
+therefore not be produced. The fabrication files are fully prepared
+and ready to be used once the machine is available again.
+
+## What I Learned
+
+Even though the physical milling could not be completed, this activity
+taught me the full PCB milling workflow from design export to machine
+setup. I learned how Gerber files translate a digital schematic into
+machine instructions, how toolpaths are generated for different milling
+stages, and how important axis calibration is for achieving accurate
+trace isolation.
+
+## References
+- PCB Milling Process Using Carbide Nomad 3 CNC
+- Carbide 3D documentation and user guides
+- KiCad Gerber and drill file export workflow
+- Course material for Digital Fabrication III
