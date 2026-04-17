@@ -1,36 +1,95 @@
-# Day 6 – Digital Fabrication II: Additive Manufacturing
-# Overview of Day 6 Activity
-Day 6 focused on 3D printing using the Ultimaker printer, where a digital design is transformed into a physical object through additive manufacturing. This activity introduced the basic operation of a 3D printer, material selection, printer setup, and the complete printing workflow from design to finished object.
-# Introduction to 3D Printing
-3D printing is an additive manufacturing process that builds objects layer by layer based on a digital 3D model. Ultimaker printers use Fused Deposition Modeling (FDM) technology, where plastic filament is melted and extruded through a nozzle to form the object. This method is commonly used for rapid prototyping, education, and creating functional parts.
-# Ultimaker Printer Overview
-Ultimaker is a desktop FDM 3D printer known for reliability and ease of use. It includes features such as a heated build plate for good adhesion, an open material system that supports different filaments, and precise motion control for quality prints. Some models also support dual extrusion for multi-material printing.
-Main Parts of the Ultimaker Printer
-# The main components of the Ultimaker printer include:
-•	Print head: Extrudes melted filament through the nozzle
-•	Filament system: Feeds material from the spool to the print head
-•	Build plate: Surface where the object is printed
-•	Motion system: Controls movement along X, Y, and Z axes
-•	Control system: Screen and electronics for printer operation
-# Materials Used in 3D Printing
-Different filament materials can be used depending on the application:
-•	PLA: Easy to print and suitable for general models
-•	ABS: Strong and heat resistant
-•	PETG: Durable and flexible with good strength
-•	TPU: Flexible material for soft parts
-Material selection depends on strength, flexibility, and intended use of the printed object. 
-# Preparing the Digital Model
-Before printing, the 3D model is prepared using slicing software such as Ultimaker Cura. The model is imported in STL or OBJ format and slicing settings such as layer height, infill density, print speed, and supports are configured. The slicer then generates the file used by the printer. 
-# Printer Setup and Calibration
-Proper setup is essential for successful printing. The filament is loaded, the build plate is leveled, and the surface is cleaned to improve adhesion. The printer is preheated to the required temperatures before starting the print. A small test print can be used to verify settings. 
-# The Printing Process
-After setup, the print is started from the printer interface. The first layers are carefully monitored to ensure good adhesion. The printer then builds the object layer by layer while cooling fans help maintain shape and quality. 
-# Post-Processing and Troubleshooting
-Once printing is complete, the object is removed from the build plate and support structures are taken off. Basic finishing such as sanding may be done. Common issues observed include warping, stringing, and under-extrusion, which can be reduced by proper settings and calibration. 
-# Safety and Best Practices
-Safety is important during 3D printing. Hot parts should not be touched, the printer should be used in a ventilated area, and long prints should be supervised. Regular cleaning and maintenance help ensure good performance and print quality.
-# References & Inspiration
-•	3D Printer Operation Ultimaker course presentation 
-•	Digital fabrication and 3D printing documentation
-Download Reference
-•	3D Printer Operation Ultimaker (PDF)
+# Activity 6. Digital Fabrication II: 3D Printing
+
+## Introduction
+
+3D printing is an additive manufacturing process that builds objects layer by
+layer based on a digital 3D model. Ultimaker printers use Fused Deposition
+Modeling (FDM) technology, where plastic filament is melted and extruded
+through a nozzle to form the object layer by layer.
+
+Unlike laser cutting which removes material, 3D printing adds material only
+where needed. This makes it ideal for rapid prototyping, creating complex
+shapes, and producing functional parts that would be difficult to make with
+other methods.
+
+## After Class Activity Printing a 3D Object
+
+In this activity we used an Ultimaker 3D printer to print a physical object
+from a digital model. The goal was to understand the full workflow from
+preparing the file to receiving the finished printed part.
+
+
+## Step 1 Preparing the Digital Model
+
+Before printing, the 3D model was prepared using Ultimaker Cura slicing
+software. The model was imported in STL format and the following settings
+were configured:
+
+- **Layer height** controls print resolution and detail
+- **Infill density** controls internal strength of the object
+- **Print speed** affects quality and time
+- **Supports** added where overhanging parts need backing
+
+Once settings were configured, Cura generated the print file to send to
+the printer.
+
+## Step 2 Loading the Filament
+
+We loaded PLA filament into the printer. PLA is the most common 3D printing
+material, it is easy to print, biodegradable, and suitable for general
+models and prototypes. The filament is fed from the spool into the print
+head where it is melted and extruded.
+
+## Step 3 Leveling the Build Plate
+
+Before starting the print, the build plate was leveled to ensure the nozzle
+was at the correct distance from the surface. A correctly leveled plate is
+critical — if the nozzle is too far the first layer will not stick, and if
+it is too close the filament will be over-compressed and block the nozzle.
+
+## Step 4 Starting the Print
+
+After setup was complete, the print file was sent to the printer and the
+job was started from the printer interface. The printer preheated the nozzle
+and build plate to the required temperatures, then began printing the first
+layer. The first few layers were monitored closely to confirm good adhesion
+to the build plate.
+
+## Step 5 Monitoring the Print
+
+Once the first layers were confirmed, the printer continued building the
+object layer by layer automatically. Cooling fans helped each layer solidify
+before the next one was added, maintaining shape and print quality throughout
+the process.
+
+## Step 6 Final Result
+
+After printing was complete, the object was carefully removed from the build
+plate. The result was a small cat keychain charm printed in light blue PLA,
+showing fine surface detail and clean layer lines from the FDM process.
+
+**Final printed object:**
+
+![3D Printed Object](../images/day_6/day6.jpeg)
+
+## Safety Practices
+
+Throughout the activity we followed proper safety procedures:
+
+- Did not touch the nozzle or build plate while hot
+- Used the printer in a ventilated area
+- Monitored the print during the first layers
+- Waited for the build plate to cool before removing the object
+
+## What I Learned
+
+This activity showed me how a digital 3D model becomes a real physical
+object through additive manufacturing. Each setting in the slicer directly
+affects the quality, strength, and time of the print. Understanding the
+relationship between digital preparation and physical output is essential
+for successful 3D printing.
+
+## References
+- 3D Printer Operation Ultimaker course presentation
+- Ultimaker Cura slicing software documentation
+- Digital fabrication and 3D printing lecture notes
